@@ -26,7 +26,7 @@ public class ClientController {
                     ReqRepBasicClient.start();
                     break;
                 case 2:
-                    PubSubBasicClient.start();
+                    PubSubBasicClient.start(new String[]{});
                     break;
                 case 3:
                     PubSubAndPullPushClient.start();
