@@ -37,6 +37,8 @@ public class ClientController {
                 case 5:
                     DealerRouterAsyncClient.start(new String[]{"client#1"});
                     break;
+                case 6:
+                    DealerRouterAsyncClientThread.start(new String[]{"client#1"});
                 default:
                     System.out.println("1~5 중에 선택해주세요.\n");
             }
