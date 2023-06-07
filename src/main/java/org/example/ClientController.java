@@ -35,7 +35,7 @@ public class ClientController {
                     PubSubAndPullPushClientV2.start(new String[]{"client#1"});
                     break;
                 case 5:
-                    DealerRouterAsyncClient.start();
+                    DealerRouterAsyncClient.start(new String[]{"client#1"});
                     break;
                 default:
                     System.out.println("1~5 중에 선택해주세요.\n");
