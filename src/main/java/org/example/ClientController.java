@@ -32,7 +32,7 @@ public class ClientController {
                     PubSubAndPullPushClient.start();
                     break;
                 case 4:
-                    PubSubAndPullPushClientV2.start();
+                    PubSubAndPullPushClientV2.start(new String[]{"client#1"});
                     break;
                 case 5:
                     DealerRouterAsyncClient.start();
